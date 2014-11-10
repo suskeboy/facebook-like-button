@@ -156,8 +156,36 @@ A Polymer Component for displaying the Facebook Like Button.
              * @default false
              */
         	kiddirectedsite: 'false',
+
+        	/**
+             * Selects one of the different layouts that are available for the plugin.
+             *
+             * Values: `standard` | `button_count` | `button` | `box_count`
+             *
+             * @attribute layout
+             * @type string
+             * @default standard
+             */
         	layout: 'standard',
+
+        	/**
+             * A label for tracking referrals which must be less than 50 characters and can contain alphanumeric characters and some punctuation.
+             *
+             * See [FAQ](https://developers.facebook.com/docs/plugins/like-button#faqref) for more information.
+             *
+             * @attribute ref
+             */
         	ref: '',
+
+        	/**
+             * Specifies whether to include a share button beside the Like button.
+             *
+             * Values: `true` | `false`
+             *
+             * @attribute share
+             * @type bool
+             * @default true
+             */
         	share: 'true',
 
         	renderFacebookLikeButton: function() {
