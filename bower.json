@@ -1,0 +1,7 @@
+{
+  "name": "facebook-like-button#gh-pages",
+  "private": true,
+  "dependencies": {
+    "facebook-like-button": "kunalnagar/facebook-like-button#master"
+  }
+}
